@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/Cafe-logo.png">
+  <title>Coffee Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/images/Cafe-logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardapio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#local">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Main-->
+  <main>
+    <!-- Carousel -->
+    <div id="carousel-coffe" class="carousel slide carousel-height" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1061&q=80"
+            class="d-block w-100" alt="Grãos de café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A melhor experiência gastronômica de café</h5>
+            <p>Você vai experimentar os melhores cafés do Brasil e do mundo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1504087697492-238a6bf49ce8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            class="d-block w-100" alt="Loja de café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Um ambiente pensado para você e sua família</h5>
+            <p>Nosso restaurante foi pensado para te fornecer um ambiente confortável, tranquilo e leve.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            class="d-block w-100" alt="Utensílios para café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Os melhores grãos</h5>
+            <p>Trabalhamos com ingredientes selecionados, da melhor qualidade, do jeito que você merece!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffe" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffe" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Quote -->
+  <figure>
+    <blockquote class="blockquote">
+      <h3 class="fw-lighter text-center fst-italic margin-top__quote">
+        O amor é um café às oito da manhã numa segunda.
+      </h3>
+    </blockquote>
+    <figcaption class="blockquote-footer text-center mb-5">
+      <cite title="Source Title">Dono da Cafeteria</cite>
+    </figcaption>
+  </figure>
+  <div class="divisor"></div>
+  <!--Sobre nos-->
+  <section id="about" class="container__aboutus text-center anchor-link__bigger">
+    <h3 class="fw-bolder">Sobre nós</h3>
+    <p>Adentre o mundo encantador das aromas tentadores e sabores inigualáveis. Somos uma autêntica experiência
+      cafeinada, um refúgio para aqueles que buscam momentos de prazer e inspiração.
+
+      Em nossas xícaras, encontram-se histórias e paixões que nos impulsionam a criar algo extraordinário. Cada grão de
+      café que escolhemos cuidadosamente tem uma origem única, trazendo consigo a riqueza de uma terra distante e o
+      trabalho árduo de fazendeiros dedicados. E é com respeito a essa jornada que trabalhamos, honrando cada nota e
+      cada nuance que o café oferece.
+
+      Nosso espaço foi cuidadosamente projetado para ser um refúgio acolhedor, onde você pode deixar as preocupações de
+      lado e se perder nas sensações que um bom café pode proporcionar. Aqui, a cada gole, você descobre um mundo de
+      sabores que se desdobram em sua língua, convidando-o a apreciar os prazeres mais simples da vida.
+
+      Nossa busca pela excelência não se limita apenas ao café, mas se estende aos acompanhamentos que o complementam.
+      Nossos quitutes são verdadeiras obras de arte culinárias, elaborados com ingredientes frescos e selecionados para
+      proporcionar uma harmonia perfeita de sabores. De bolos fofinhos a croissants delicadamente folhados, cada mordida
+      é uma celebração do amor pela gastronomia.</p>
+    <!-- <p>Nascemos da paixão por sabores autênticos e momentos compartilhados. Cada grão é selecionado com cuidado, proveniente de origens exóticas e cultivado com amor e respeito pela terra. Nossa equipe de especialistas dedicados se dedica a transformar esses grãos em obras de arte líquidas, trazendo à vida uma variedade de sabores e perfis que farão sua alma dançar.</p> -->
+
+  </section>
+  <!--Cards-->
+  <section class="container pb-5 anchor-link">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0" style="min-height: 318px;">
+            <div class="col-md-4">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                class="img__card rounded-start" alt="expresso coffe">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Somos apaixonados por café</h5>
+                <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café pode mudar o mundo</h6>
+                <p class="card-text">Nós nos dedicamos a explorar o mundo do café, desde suas origens até as diferentes
+                  variedades e métodos de preparo. Acreditamos que o café é mais do que uma bebida energizante; é uma
+                  paixão que une pessoas, desperta conversas e inspira momentos especiais.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://images.unsplash.com/photo-1604953415806-786b443f72b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80"
+                class="img-fluid rounded-start" alt="barista w/coffe">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Equipe premium de baristas</h5>
+                <h6 class="card-subtitle text-muted mb-3">Profissionais especializados para levar o melhor do café até a
+                  sua mesa</h6>
+                <p class="card-text">Nossa equipe de baristas é apaixonada por café e dedicada a entregar a melhor
+                  experiência para você. São profissionais especializados, treinados nas técnicas mais avançadas de
+                  preparo e conhecem a fundo as características dos diferentes grãos e blends.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="divisor"></div>
+  <!--Cardapio-->
+  <section id="menu" class="container mt-5 pt-5 mb-5 anchor-link">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="expresso" data-bs-toggle="tab" data-bs-target="#expresso-pane" type="button"
+          role="tab" aria-controls="expresso-pane" aria-selected="true">Expresso</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="capuccinos" data-bs-toggle="tab" data-bs-target="#capuccinos-pane" type="button"
+          role="tab" aria-controls="capuccinos-pane" aria-selected="false">Capuccinos</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="gelados" data-bs-toggle="tab" data-bs-target="#gelados-pane" type="button"
+          role="tab" aria-controls="gelados-pane" aria-selected="false">Gelados</button>
+      </li>
+
+
+    </ul>
+    <!--Cards cafe-->
+    <div class="tab-content" id="CoffeContent">
+      <!--Expresso-->
+      <div class="tab-pane fade show active" id="expresso-pane" role="tabpanel" aria-labelledby="expresso" tabindex="0">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1541750072-95ea63c38b71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1130&q=80"
+                class="card-img-top" alt="Expresso italiano">
+              <div class="card-body align-content-center">
+                <h5 class="card-title">Expresso italiano - R$ 7,00</h5>
+                <p class="card-text"> O expresso italiano é uma bebida clássica e concentrada, feita com uma pequena
+                  quantidade de água quente pressionada através de uma porção de café moído finamente. O resultado é um
+                  café rico, encorpado e com um sabor intenso. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1571658734974-e513dfb8b86b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1175&q=80"
+                class="card-img-top" alt="Latte">
+              <div class="card-body">
+                <h5 class="card-title">Latte - R$ 12,00</h5>
+                <p class="card-text">O latte é uma bebida de café expresso feita com uma quantidade generosa de leite
+                  vaporizado e uma pequena quantidade de espuma de leite. Ele tem uma proporção maior de leite em
+                  relação ao cappuccino, resultando em uma bebida mais cremosa e suave. O sabor do café expresso ainda
+                  está presente, mas é complementado pela cremosidade do leite.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1590138695581-1e82b57e78d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                class="card-img-top" alt="macchiato">
+              <div class="card-body">
+                <h5 class="card-title">Macchiato - R$ 11,00</h5>
+                <p class="card-text">O macchiato é um café expresso com uma pequena quantidade de leite vaporizado
+                  adicionado. A palavra "macchiato" significa "manchado" em italiano, referindo-se à mancha de leite no
+                  café. É uma bebida mais intensa do que o cappuccino ou o latte, com o sabor rico e concentrado do café
+                  expresso complementado pelo toque suave do leite.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Mocha-1fc71f7.png?quality=90&webp=true&resize=300,272"
+                class="card-img-top" alt="Mocha">
+              <div class="card-body">
+                <h5 class="card-title">Mocha - R$ 14,00</h5>
+                <p class="card-text"> O mocha é uma combinação de café expresso, leite vaporizado, chocolate e
+                  chantilly. É uma bebida indulgente e saborosa, perfeita para os amantes de café com sabor de
+                  chocolate. O sabor rico do café expresso se mistura com o doce do chocolate, enquanto o leite
+                  vaporizado e o chantilly adicionam cremosidade e um toque de luxo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img src="https://uniquecafes.com.br/wp-content/uploads/2021/08/Destaque-Flat-White.jpg"
+                class="card-img-top" alt="Flat White">
+              <div class="card-body">
+                <h5 class="card-title">Flat White - R$ 10,00</h5>
+                <p class="card-text">O flat white é uma bebida originária da Austrália e da Nova Zelândia. É feito com
+                  café expresso e leite vaporizado, mas com menos espuma do que um cappuccino. O resultado é uma bebida
+                  com uma textura suave e sedosa. O sabor do café expresso é equilibrado pelo leite vaporizado, criando
+                  uma bebida deliciosa e agradável.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://www.maquinascafeexpresso.com/wp-content/uploads/2019/10/conheca-caracteristicas-cafe-ristretto-1.jpg"
+                class="card-img-top" alt="Ristretto">
+              <div class="card-body">
+                <h5 class="card-title">Ristretto - R$ 8,00</h5>
+                <p class="card-text">O ristretto é uma versão mais concentrada do café expresso. É feito com a mesma
+                  quantidade de café moído, mas com menos água, resultando em um sabor ainda mais intenso e encorpado. O
+                  ristretto é apreciado por quem busca uma experiência de café expresso mais forte e concentrada.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Capuccinos-->
+      <div class="tab-pane fade" id="capuccinos-pane" role="tabpanel" aria-labelledby="capuccinos" tabindex="0">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Cappuccino Clássico">
+              <div class="card-body align-content-center">
+                <h5 class="card-title">Cappuccino Clássico - R$ 9,00</h5>
+                <p class="card-text">Desfrute de um clássico italiano com nosso cappuccino perfeitamente equilibrado. O
+                  aroma rico do café expresso se mistura harmoniosamente com a cremosidade do leite vaporizado e a
+                  suavidade da espuma de leite. Cada gole proporciona uma experiência reconfortante e satisfatória. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1511993839919-722684ee21f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Cappuccino de Caramelo">
+              <div class="card-body">
+                <h5 class="card-title">Cappuccino de Caramelo - R$ 10,00</h5>
+                <p class="card-text">Permita-se um momento de indulgência com nosso cappuccino de caramelo. A combinação
+                  perfeita entre o sabor doce e suave do caramelo com o café expresso e o leite vaporizado, resultando
+                  em uma bebida irresistível e reconfortante.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1466337105551-aa3ab7890939?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                class="card-img-top" alt="Cappuccino de Chocolate">
+              <div class="card-body">
+                <h5 class="card-title">Cappuccino de Chocolate - R$ 13,00</h5>
+                <p class="card-text">Descubra uma experiência de sabor intensa com nosso cappuccino de chocolate. O rico
+                  sabor do chocolate se funde com o café expresso e o leite vaporizado, criando uma bebida
+                  deliciosamente indulgente. Perfeito para os amantes de café e chocolate. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1534234757579-8ad69d218ad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Cappuccino de Avelã">
+              <div class="card-body">
+                <h5 class="card-title">Cappuccino de Avelã - R$ 12,00</h5>
+                <p class="card-text">Deleite-se com a suavidade e o aroma envolvente do nosso cappuccino de avelã. O
+                  sabor irresistível da avelã harmoniza-se maravilhosamente com o café expresso e o leite vaporizado,
+                  criando uma combinação sofisticada e saborosa. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1537188531050-d32d2ae14865?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Cappuccino de Especiarias">
+              <div class="card-body">
+                <h5 class="card-title">Cappuccino de Especiarias - R$ 12,00</h5>
+                <p class="card-text">Desperte seus sentidos com nosso cappuccino de especiarias, uma mistura calorosa de
+                  sabores exóticos. A adição de especiarias, como canela, noz-moscada e cardamomo, realça o sabor do
+                  café expresso e proporciona uma experiência única e aromática.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1642647390911-77934bc6bc33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
+                class="card-img-top" alt="Cappuccino Gelado">
+              <div class="card-body">
+                <h5 class="card-title">Cappuccino Gelado - R$ 9,00</h5>
+                <p class="card-text">Refresque-se com nosso cappuccino gelado, perfeito para dias ensolarados. O café
+                  expresso e o leite vaporizado são combinados com gelo, resultando em uma bebida revigorante, cremosa e
+                  cheia de sabor. Ideal para quem busca uma opção refrescante de cappuccino.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Gelados-->
+      <div class="tab-pane fade" id="gelados-pane" role="tabpanel" aria-labelledby="gelados" tabindex="0">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1471691118458-a88597b4c1f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Café Gelado Tradicional">
+              <div class="card-body align-content-center">
+                <h5 class="card-title">Café Gelado Tradicional - R$ 9,00</h5>
+                <p class="card-text"> Desperte seus sentidos com nosso café gelado refrescante. Feito com café expresso
+                  resfriado, servido sobre gelo e, se desejado, adoçado a gosto. Cada gole oferece uma combinação
+                  revigorante de sabores e uma dose energizante para enfrentar o dia. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1579888071069-c107a6f79d82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Latte Gelado">
+              <div class="card-body">
+                <h5 class="card-title">Latte Gelado - R$ 12,00</h5>
+                <p class="card-text">Descubra a suavidade e a cremosidade do nosso Latte Gelado. Café expresso gelado
+                  combinado com leite gelado e gelo, resultando em uma bebida equilibrada e revigorante. Personalize com
+                  xaropes de sabores adicionais para uma experiência única. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1590138695581-1e82b57e78d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                class="card-img-top" alt="macchiato Gelado">
+              <div class="card-body">
+                <h5 class="card-title">Macchiato Gelado - R$ 11,00</h5>
+                <p class="card-text">Refresque-se com nosso Macchiato Gelado. Café expresso gelado combinado com leite
+                  frio e uma pitada de leite vaporizado. Com sua doçura sutil e toque de cremosidade, é uma opção
+                  elegante e refrescante para os amantes do café.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Mocha-1fc71f7.png?quality=90&webp=true&resize=300,272"
+                class="card-img-top" alt="Mocha Gelado">
+              <div class="card-body">
+                <h5 class="card-title">Mocha Gelado - R$ 14,00</h5>
+                <p class="card-text"> Mergulhe em uma experiência de café e chocolate com nosso Mocha Gelado. Café
+                  expresso gelado combinado com leite gelado, xarope de chocolate e gelo. Cada gole oferece uma explosão
+                  de sabores, equilibrando a intensidade do café com a indulgência do chocolate. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1594631661960-34762327295a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80"
+                class="card-img-top img-position" alt="Affogato">
+              <div class="card-body">
+                <h5 class="card-title">Affogato - R$ 14,00</h5>
+                <p class="card-text">Descubra uma sobremesa gelada e sofisticada com nosso Affogato. Uma bola de sorvete
+                  de baunilha generosamente coberta com café Expresso quente. A combinação da doçura do sorvete com a
+                  intensidade do café cria uma experiência única e deliciosa.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img
+                src="https://images.unsplash.com/photo-1608593432708-96e0343b996c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-img-top" alt="Frappuccino">
+              <div class="card-body">
+                <h5 class="card-title">Frappuccino - R$ 12,00</h5>
+                <p class="card-text">Delicie-se com nosso Frappuccino cremoso e gelado. Uma mistura irresistível de café
+                  expresso, leite gelado, gelo e xarope de sua escolha. Batido até atingir uma textura aveludada, é
+                  finalizado com uma cobertura de chantilly e um toque especial. Uma indulgência refrescante para
+                  saborear a qualquer momento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="divisor mt-5"></div>
+  <!--Contato-->
+  <section id="local" class="text-center anchor-link__bigger">
+    <h2 class=" mt-5 anchor-link fw-bolder">Contato</h2>
+    <p><strong>Entre em contato conosco para mais informações ou qualquer dúvida:</strong></p>
+    <ul class="list-unstyled">
+      <li><strong>Endereço:</strong> Av. Prudente de Morais, 5121 - Lagoa Nova, Natal - RN, 59064-625</li>
+      <li><strong>Telefone:</strong> (11) 1234-5678</li>
+      <li><strong>E-mail:</strong> info@seucafe.com</li>
+    </ul>
+    <div>
+      <iframe class="iframe__border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5613.297245163565!2d-35.212802686622595!3d-5.827323804435845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff89610fd765%3A0x897aca0356ad5144!2sArena%20das%20Dunas!5e0!3m2!1spt-BR!2sbr!4v1688499628884!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  </main>
+ <!--Footer-->
+ <footer class="text-center bg-dark p-3 mt-5 text-light">
+  <img width="80" src="assets/images/Cafe-logo.png" alt="Cafe-logo">
+  <p class="mt-2 mb-0 fw-bold">
+    Coffe Shop | Transformando sua experiencia com cafe!
+  </p>
+  <p>Projeto pessoal</p>
+  <p>Leonardo Ferreira Miranda</p>
+  <div class="social-medias">
+    <a href="https://www.instagram.com/leomiranda18/" class="icon icon--instagram">
+      <i class="ri-instagram-line"></i>
+    </a>
+
+    </a>
+    <a href="https://github.com/LeonardoFMiranda" class="icon icon--github">
+      <i class="ri-github-line"></i>
+    </a>
+  </div>
+
+ </footer>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script>
+
+    var myCarousel = document.getElementById('carousel-coffe');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 5000,
+      pause: 'hover',
+      wrap: true
+    });
+  </script>
+</body>
+
+</html>
