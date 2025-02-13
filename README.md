@@ -12,15 +12,15 @@ Bem-vindo à minha loja de café virtual! Este projeto foi desenvolvido usando o
 
 - Localização: Implementei um recurso de localização que permite aos clientes encontrar a loja física mais próxima.
 
-<a href="https://leonardofmiranda.github.io/CafezimVirtual/">
+<a href="https://github.com/Duan-Costa/repositorio-CafezimVirtual-main/">
   <img src="assets/images/readme-images/Photo1.png">
 </a>
-<a href="https://leonardofmiranda.github.io/CafezimVirtual/#about">
+<a href="https://github.com/Duan-Costa/repositorio-CafezimVirtual-main/#about">
   <img src="assets/images/readme-images/Photo2.png">
 </a>
-<a href="https://leonardofmiranda.github.io/CafezimVirtual/#menu">
+<a href="https://github.com/Duan-Costa/repositorio-CafezimVirtual-main/#menu">
   <img src="assets/images/readme-images/Photo3.png">
 </a>
-<a href="https://leonardofmiranda.github.io/CafezimVirtual/#local">
+<a href="https://github.com/Duan-Costa/repositorio-CafezimVirtual-main/#local">
   <img src="assets/images/readme-images/Photo4.png">
 </a>
